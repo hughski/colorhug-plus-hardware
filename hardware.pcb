@@ -795,18 +795,30 @@ Symbol['~' 12.00mil]
 )
 Attribute("import::src0" "/home/hughsie/Code/ColorHug/hardware/hardware2.sch")
 Attribute("PCB::grid::unit" "mm")
-Via[264.57mil 26.0017mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[199.57mil 26.0017mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[953.39mil 837.35mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[782.07mil 589.50mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[55.02mil 734.91mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[142.88mil 36.9720mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[14.0630mm 30.8478mm 36.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[14.0630mm 30.8478mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[178.60mil 35.3842mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[53.58mil 392.92mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[205.39mil 32.6624mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[821.56mil 205.39mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
-Via[634.03mil 19.0530mm 41.00mil 32.00mil 0.0000 20.00mil "" ""]
+Via[330.41mil 26.0845mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[267.90mil 26.0845mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[392.92mil 26.0845mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[205.39mil 26.0845mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[509.01mil 27.8991mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[509.01mil 26.0845mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[205.39mil 794.77mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[473.29mil 919.79mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[339.34mil 16.5580mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[392.92mil 16.5580mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[98.23mil 30.6210mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[330.41mil 848.35mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[813.57mil 294.75mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[25.8577mm 544.73mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[953.39mil 837.35mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[794.77mil 35.8379mm 46.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[71.44mil 446.50mil 121.00mil 20.00mil 106.00mil 100.00mil "" "hole"]
+Via[991.23mil 31.9819mm 121.00mil 20.00mil 106.00mil 100.00mil "" "hole"]
 
 Element["" "HC49smt" "X1" "24MHz" 23.4160mm 833.41mil -170.00mil 195.00mil 0 100 ""]
 (
@@ -934,7 +946,7 @@ Element["" "USB_mini_TYPE-B_SMT_truncated" "CONN2" "unknown" 532.14mil 144.68mil
 
 	)
 
-Element["" "TANT_A" "C7" "2u2f" 150.43mil 172.92mil 43.20mil -122.81mil 0 100 ""]
+Element["" "TANT_A" "C7" "2u2f" 150.43mil 244.36mil 43.20mil -122.81mil 0 100 ""]
 (
 	Attribute("device" "POLARIZED_CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -966,21 +978,7 @@ Element["" "0805" "C1" "22pf" 740.31mil 984.12mil -83.82mil 41.65mil 0 100 ""]
 
 	)
 
-Element["" "0805" "C2" "22pf" 18.7930mm 813.69mil -93.65mil 1.0859mm 0 100 ""]
-(
-	Attribute("device" "CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-
-	)
-
-Element["" "0805" "C6" "10uf" 672.03mil 31.0446mm 60.99mil -2.5080mm 0 100 ""]
+Element["" "0805" "C6" "10uf" 672.03mil 31.0446mm -19.38mil -2.5080mm 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -994,7 +992,7 @@ Element["" "0805" "C6" "10uf" 672.03mil 31.0446mm 60.99mil -2.5080mm 0 100 ""]
 
 	)
 
-Element["" "0805" "C8" "100nf" 672.03mil 34.3388mm 61.99mil -98.83mil 0 100 ""]
+Element["" "0805" "C8" "100nf" 672.03mil 34.3388mm -18.38mil -98.83mil 0 100 ""]
 (
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
@@ -1008,35 +1006,7 @@ Element["" "0805" "C8" "100nf" 672.03mil 34.3388mm 61.99mil -98.83mil 0 100 ""]
 
 	)
 
-Element["" "0805" "R3" "100" 923.55mil 31.0446mm 50.90mil -98.52mil 0 100 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-
-	)
-
-Element["" "0805" "R4" "100" 923.55mil 34.3388mm -7.01mil -92.42mil 0 100 ""]
-(
-	Attribute("device" "RESISTOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-
-	)
-
-Element["" "0805" "LED1" "unknown" 923.55mil 40.1284mm -184.92mil 21.93mil 0 100 ""]
+Element["" "0805" "LED1" "unknown" 928.43mil 39.4670mm -50.97mil 39.79mil 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1105,7 +1075,7 @@ Element["" "JUMPER6" "CONN1" "ICSP" 778.68mil 40.1475mm -295.59mil 46.50mil 0 10
 
 	)
 
-Element["" "0805" "LED0" "unknown" 923.55mil 37.7327mm -186.94mil -96.50mil 0 100 ""]
+Element["" "0805" "LED0" "unknown" 929.01mil 37.4256mm -52.99mil -96.50mil 0 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
@@ -1136,7 +1106,7 @@ Element["" "0805" "R1" "10k" 669.75mil 37.4256mm 80.39mil -19.61mil 0 100 ""]
 Element["" "SO8" "U5" "unknown" 9.2997mm 36.0647mm 158.60mil -3.5654mm 0 100 ""]
 (
 	Pad[-135.00mil -75.00mil -70.00mil -75.00mil 20.00mil 10.00mil 30.00mil "SDA" "1" "square"]
-	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 10.00mil 30.00mil "SCL" "2" "square"]
+	Pad[-135.00mil -25.00mil -70.00mil -25.00mil 20.00mil 10.00mil 30.00mil "SCL" "2" "found,square"]
 	Pad[-135.00mil 25.00mil -70.00mil 25.00mil 20.00mil 10.00mil 30.00mil "ALERT" "3" "square"]
 	Pad[-135.00mil 75.00mil -70.00mil 75.00mil 20.00mil 10.00mil 30.00mil "4" "4" "square"]
 	Pad[70.00mil 75.00mil 135.00mil 75.00mil 20.00mil 10.00mil 30.00mil "A2" "5" "square,edge2"]
@@ -1180,132 +1150,10 @@ Element["" "0805" "C9" "1uf" 705.18mil 392.92mil -38.50mil -92.57mil 0 100 ""]
 
 	)
 
-Element["onsolder" "SSOP16" "U6" "unknown" 15.9860mm 25.4821mm -5.7790mm 6.7145mm 0 100 "auto"]
-(
-	Pad[-7.00mil 0.0000 15.00mil 0.0000 16.00mil 30.00mil 22.00mil "IN3" "1" "onsolder,edge2"]
-	Pad[-7.00mil 26.00mil 15.00mil 26.00mil 16.00mil 30.00mil 22.00mil "IN2" "2" "onsolder,square,edge2"]
-	Pad[-7.00mil 51.00mil 15.00mil 51.00mil 16.00mil 30.00mil 22.00mil "IN1" "3" "onsolder,square,edge2"]
-	Pad[-7.00mil 77.00mil 15.00mil 77.00mil 16.00mil 53.00mil 22.00mil "IN0" "4" "onsolder,square,edge2"]
-	Pad[-7.00mil 103.00mil 15.00mil 103.00mil 16.00mil 30.00mil 22.00mil "REXT" "5" "onsolder,square,edge2"]
-	Pad[-7.00mil 128.00mil 15.00mil 128.00mil 16.00mil 30.00mil 22.00mil "6" "6" "onsolder,square,edge2"]
-	Pad[-7.00mil 154.00mil 15.00mil 154.00mil 16.00mil 30.00mil 22.00mil "7" "7" "onsolder,square,edge2"]
-	Pad[-7.00mil 179.00mil 15.00mil 179.00mil 16.00mil 30.00mil 22.00mil "A1" "8" "onsolder,square,edge2"]
-	Pad[-219.00mil 180.00mil -197.00mil 180.00mil 16.00mil 30.00mil 22.00mil "A0" "9" "onsolder,square"]
-	Pad[-219.00mil 154.00mil -197.00mil 154.00mil 16.00mil 30.00mil 22.00mil "SDA" "10" "onsolder,square"]
-	Pad[-219.00mil 129.00mil -197.00mil 129.00mil 16.00mil 30.00mil 22.00mil "SCL" "11" "onsolder,square"]
-	Pad[-219.00mil 103.00mil -197.00mil 103.00mil 16.00mil 30.00mil 22.00mil "READY" "12" "onsolder,square"]
-	Pad[-219.00mil 77.00mil -197.00mil 77.00mil 16.00mil 30.00mil 22.00mil "SYN" "13" "onsolder,square"]
-	Pad[-219.00mil 52.00mil -197.00mil 52.00mil 16.00mil 30.00mil 22.00mil "14" "14" "onsolder,square"]
-	Pad[-219.00mil 26.00mil -197.00mil 26.00mil 16.00mil 30.00mil 22.00mil "VDDA" "15" "onsolder,square"]
-	Pad[-219.00mil 1.00mil -197.00mil 1.00mil 16.00mil 30.00mil 22.00mil "VPD" "16" "onsolder,square"]
-	ElementLine [-77.00mil -22.00mil 33.00mil -22.00mil 10.00mil]
-	ElementLine [-237.00mil -22.00mil -127.00mil -22.00mil 10.00mil]
-	ElementLine [-237.00mil -22.00mil -237.00mil 202.00mil 10.00mil]
-	ElementLine [-237.00mil 202.00mil 33.00mil 202.00mil 10.00mil]
-	ElementLine [33.00mil -22.00mil 33.00mil 202.00mil 10.00mil]
-	ElementArc [-102.00mil -22.00mil 25.00mil 25.00mil 0 180 10.00mil]
-
-	)
-
-Element["" "0805" "L1" "unknown" 89.30mil 320.90mil -58.29mil -92.85mil 0 100 ""]
-(
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "1" "1" "square"]
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "2" "2" "selected,square"]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-
-	)
-
-Element["onsolder" "testpad_1mm" "TP1" "unknown" 19.7331mm 36.9720mm 44.62mil 35.72mil 0 100 "auto"]
-(
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
-	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "1" "1" "onsolder"]
-
-	)
-
-Element["onsolder" "testpad_1mm" "TP2" "unknown" 17.2988mm 36.9720mm -3.6295mm 35.72mil 0 100 "auto"]
-(
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
-	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "1" "1" "onsolder"]
-
-	)
-
-Element["onsolder" "testpad_1mm" "TP5" "unknown" 98.22mil 35.3842mm 2.7211mm 62.51mil 0 100 "auto"]
-(
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
-	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "1" "1" "onsolder"]
-
-	)
-
-Element["onsolder" "testpad_1mm" "TP4" "unknown" 98.22mil 32.6624mm 2.7187mm 1.7507mm 0 100 "auto"]
-(
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
-	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "1" "1" "onsolder"]
-
-	)
-
-Element["onsolder" "testpad_1mm" "TP3" "unknown" 5.8970mm 946.58mil -3.4027mm 26.79mil 0 100 "auto"]
-(
-	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
-	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "1" "1" "onsolder"]
-
-	)
-
 Element["" "0805" "R12" "2k2" 89.30mil 34.7037mm 13.15mil 39.94mil 0 100 ""]
 (
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
-	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
-	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
-
-	)
-
-Element["" "0805" "C4" "100nf" 53.58mil 499.79mil 49.16mil -31.21mil 0 100 ""]
-(
-	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
-	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
-	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
-	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
-
-	)
-
-Element["onsolder" "QFN16_3_EP" "U1" "unknown" 526.87mil 848.35mil -2.3862mm -2.9666mm 0 100 "auto"]
-(
-	Attribute("description" "QFN16_3_EP, suited for hand soldering")
-	Attribute("author" "Richard Hughes")
-	Attribute("copyright" "2014 Richard Hughes <richard@hughsie.com>")
-	Attribute("use-license" "unlimited")
-	Attribute("dist-license" "GPL")
-	Attribute("documentation" "MTCSiCF")
-	Pad[0.9750mm 1.7500mm 0.9750mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "1" "1" "onsolder,square,edge2"]
-	Pad[0.3250mm 1.7500mm 0.3250mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "2" "2" "onsolder,square,edge2"]
-	Pad[-0.3250mm 1.7500mm -0.3250mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "3" "3" "onsolder,square,edge2"]
-	Pad[-0.9750mm 1.7500mm -0.9750mm 2.3500mm 0.4000mm 20.00mil 0.6000mm "4" "4" "onsolder,square,edge2"]
-	Pad[-2.3500mm 0.9750mm -1.7500mm 0.9750mm 0.4000mm 20.00mil 0.6000mm "Z" "5" "onsolder,square"]
-	Pad[-2.3500mm 0.3250mm -1.7500mm 0.3250mm 0.4000mm 20.00mil 0.6000mm "6" "6" "onsolder,square"]
-	Pad[-2.3500mm -0.3250mm -1.7500mm -0.3250mm 0.4000mm 20.00mil 0.6000mm "7" "7" "onsolder,square"]
-	Pad[-2.3500mm -0.9750mm -1.7500mm -0.9750mm 0.4000mm 20.00mil 0.6000mm "X" "8" "onsolder,square"]
-	Pad[-0.9750mm -2.3500mm -0.9750mm -1.7500mm 0.4000mm 20.00mil 0.6000mm "9" "9" "onsolder,square"]
-	Pad[-0.3250mm -2.3500mm -0.3250mm -1.7500mm 0.4000mm 20.00mil 0.6000mm "10" "10" "onsolder,square"]
-	Pad[0.3250mm -2.3500mm 0.3250mm -1.7500mm 0.4000mm 50.00mil 0.6000mm "11" "11" "onsolder,square"]
-	Pad[0.9750mm -2.3500mm 0.9750mm -1.7500mm 0.4000mm 50.00mil 0.6000mm "12" "12" "onsolder,square"]
-	Pad[1.7500mm -0.9750mm 2.3500mm -0.9750mm 0.4000mm 44.00mil 0.6000mm "Vref" "13" "onsolder,square,edge2"]
-	Pad[1.7500mm -0.3250mm 2.3500mm -0.3250mm 0.4000mm 21.00mil 0.6000mm "14" "14" "onsolder,square,edge2"]
-	Pad[1.7500mm 0.3250mm 2.3500mm 0.3250mm 0.4000mm 20.00mil 0.6000mm "15" "15" "onsolder,square,edge2"]
-	Pad[1.7500mm 0.9750mm 2.3500mm 0.9750mm 0.4000mm 0.2000mm 0.6000mm "Y" "16" "onsolder,square,edge2"]
-	Pad[0.0000 0.0000 0.0000 0.0000 2.5000mm 0.1000mm 2.7000mm "K" "17" "onsolder,square"]
-	ElementLine [-2.8500mm -2.8500mm -2.8500mm 2.8500mm 0.2000mm]
-	ElementLine [-2.8500mm 2.8500mm 2.8500mm 2.8500mm 0.2000mm]
-	ElementLine [2.8500mm -2.8500mm 2.8500mm 2.8500mm 0.2000mm]
-	ElementLine [-2.8500mm -2.8500mm 2.8500mm -2.8500mm 0.2000mm]
-	ElementLine [2.8500mm 2.8500mm 3.2000mm 3.2000mm 0.2000mm]
-
-	)
-
-Element["" "0805" "R2" "3.3M" 741.19mil 714.40mil -49.36mil -102.94mil 0 100 ""]
-(
-	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
-	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
 
@@ -1319,13 +1167,255 @@ Element["" "0805" "R11" "2k2" 89.30mil 32.6624mm -53.07mil -2.3462mm 0 100 ""]
 	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
 
 	)
+
+Element["onsolder" "0805" "R15" "unknown" 10.2070mm 33.3428mm -1.2464mm 3.0684mm 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "R16" "unknown" 10.2070mm 29.7137mm 1.0145mm 31.50mil 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "R13" "unknown" 267.90mil 33.3428mm -0.8075mm 3.0684mm 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "R14" "unknown" 267.90mil 29.7137mm -3.0683mm 31.50mil 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "LED2" "unknown" 526.87mil 4.0828mm 84.59mil 40.43mil 0 88 "auto"]
+(
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "A" "1" "onsolder,square"]
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "K" "2" "onsolder,square"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "R20" "1k" 491.15mil 33.3428mm -33.24mil 3.0682mm 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "R19" "1k" 16.5580mm 29.7137mm -3.0830mm 31.50mil 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "LED3" "unknown" 526.87mil 37.6524mm -201.17mil 0.8002mm 0 88 "auto"]
+(
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "A" "1" "onsolder,square"]
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 61.18mil 20.00mil 67.18mil "K" "2" "onsolder,square"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["onsolder" "SFML-107-02" "U6" "unknown" 527.59mil 790.72mil 146.46mil -128.36mil 0 100 "auto"]
+(
+	Attribute("description" "SFML-107-02, suited for hand soldering")
+	Attribute("author" "Richard Hughes")
+	Attribute("copyright" "2015 Richard Hughes <richard@hughsie.com>")
+	Attribute("use-license" "unlimited")
+	Attribute("dist-license" "GPL")
+	Attribute("documentation" "SFML-107-02")
+	Pin[212.00mil 0.0000 35.43mil 0.0000 48.00mil 55.00mil "" "" "edge2"]
+	Pin[-212.00mil 0.0000 35.43mil 0.0000 48.00mil 55.00mil "" "" "edge2"]
+	Pad[-150.00mil -83.85mil -150.00mil -34.25mil 29.13mil 20.00mil 40.00mil "2" "2" "onsolder,square"]
+	Pad[-150.00mil 34.25mil -150.00mil 83.85mil 29.13mil 20.00mil 40.00mil "1" "1" "onsolder,square,edge2"]
+	Pad[-100.00mil -83.85mil -100.00mil -34.25mil 29.13mil 20.00mil 40.00mil "4" "4" "onsolder,square"]
+	Pad[-100.00mil 34.25mil -100.00mil 83.85mil 29.13mil 20.00mil 40.00mil "3" "3" "onsolder,square,edge2"]
+	Pad[-50.00mil -83.85mil -50.00mil -34.25mil 29.13mil 20.00mil 40.00mil "6" "6" "onsolder,square"]
+	Pad[-50.00mil 34.25mil -50.00mil 83.85mil 29.13mil 20.00mil 40.00mil "5" "5" "onsolder,square,edge2"]
+	Pad[0.0000 -83.85mil 0.0000 -34.25mil 29.13mil 20.00mil 40.00mil "8" "8" "onsolder,square"]
+	Pad[0.0000 34.25mil 0.0000 83.85mil 29.13mil 20.00mil 40.00mil "7" "7" "onsolder,square,edge2"]
+	Pad[50.00mil -83.85mil 50.00mil -34.25mil 29.13mil 20.00mil 40.00mil "10" "10" "onsolder,square"]
+	Pad[50.00mil 34.25mil 50.00mil 83.85mil 29.13mil 20.00mil 40.00mil "9" "9" "onsolder,square,edge2"]
+	Pad[100.00mil -83.85mil 100.00mil -34.25mil 29.13mil 20.00mil 40.00mil "12" "12" "onsolder,square"]
+	Pad[100.00mil 34.25mil 100.00mil 83.85mil 29.13mil 20.00mil 40.00mil "11" "11" "onsolder,square,edge2"]
+	Pad[150.00mil -83.85mil 150.00mil -34.25mil 29.13mil 20.00mil 40.00mil "14" "14" "onsolder,square"]
+	Pad[150.00mil 34.25mil 150.00mil 83.85mil 29.13mil 20.00mil 40.00mil "13" "13" "onsolder,square,edge2"]
+	ElementLine [-250.00mil -123.02mil -250.00mil 123.02mil 9.84mil]
+	ElementLine [250.00mil -123.02mil 250.00mil 123.02mil 9.84mil]
+	ElementLine [-250.00mil 123.02mil 250.00mil 123.02mil 9.84mil]
+	ElementLine [-250.00mil -123.02mil 250.00mil -123.02mil 9.84mil]
+
+	)
+
+Element["onsolder" "0805" "R21" "100" 785.84mil 29.7137mm 49.16mil 29.76mil 0 88 "auto"]
+(
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["onsolder" "0805" "R22" "0R" 527.45mil 276.83mil 83.14mil 31.50mil 0 88 "auto"]
+(
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "1" "1" "onsolder,square"]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "2" "2" "onsolder,square"]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+
+	)
+
+Element["onsolder" "SC70-6" "U7" "unknown" 642.96mil 33.3428mm -17.86mil 116.09mil 0 88 "auto"]
+(
+	Pad[-38.39mil 25.59mil -34.45mil 25.59mil 15.75mil 40.00mil 23.75mil "1" "1" "onsolder,square"]
+	Pad[-38.39mil 0.0000 -34.45mil 0.0000 15.75mil 40.00mil 23.75mil "2" "2" "onsolder,square"]
+	Pad[-38.39mil -25.59mil -34.45mil -25.59mil 15.75mil 40.00mil 23.75mil "3" "3" "onsolder,square"]
+	Pad[34.45mil -25.59mil 38.39mil -25.59mil 15.75mil 40.00mil 23.75mil "4" "4" "onsolder,square,edge2"]
+	Pad[34.45mil 0.0000 38.39mil 0.0000 15.75mil 40.00mil 23.75mil "5" "5" "onsolder,square,edge2"]
+	Pad[34.45mil 25.59mil 38.39mil 25.59mil 15.75mil 40.00mil 23.75mil "6" "6" "onsolder,square,edge2"]
+	ElementLine [-16.57mil -43.46mil 16.57mil -43.46mil 10.00mil]
+	ElementLine [-16.57mil -43.46mil -16.57mil 33.46mil 10.00mil]
+	ElementLine [-16.57mil 33.46mil -6.57mil 43.46mil 10.00mil]
+	ElementLine [-6.57mil 43.46mil 16.57mil 43.46mil 10.00mil]
+	ElementLine [16.57mil -43.46mil 16.57mil 43.46mil 10.00mil]
+
+	)
+
+Element["onsolder" "testpad_1mm" "GND" "unknown" 22.9086mm 32.6624mm -44.65mil 80.37mil 0 88 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "3V3" "unknown" 928.72mil 35.3842mm 8.95mil 80.37mil 0 88 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "SDA" "unknown" 2.4943mm 35.3842mm -80.37mil -26.79mil 0 88 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "SCL" "unknown" 151.81mil 32.6624mm -125.02mil 26.79mil 0 88 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "VIDEO" "unknown" 2.7215mm 26.0845mm -62.51mil 80.37mil 0 88 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["" "0805" "C2" "22pf" 741.19mil 705.47mil -102.94mil 39.94mil 0 100 ""]
+(
+	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
+	Pad[35.43mil -3.93mil 35.43mil 3.93mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
+	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
+	ElementLine [-3.93mil 27.55mil 3.93mil 27.55mil 8.00mil]
+
+	)
+
+Element["onsolder" "testpad_1mm" "SHT" "unknown" 7.4847mm 24.2700mm 35.70mil 8.93mil 0 100 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "RM" "unknown" 12.7020mm 16.5580mm 26.77mil 0.0000 0 100 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "DATA" "unknown" 15.8772mm 26.9918mm 35.70mil 26.79mil 0 100 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "RST" "unknown" 577.59mil 25.4767mm 35.70mil 26.79mil 0 100 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["onsolder" "testpad_1mm" "CLK" "unknown" 392.92mil 598.31mil 17.84mil 0.0000 0 100 "auto"]
+(
+	Attribute("gedasymbols::url" "http://www.gedasymbols.org/user/stanislav_brabec/footprints/generic/testpad_1mm.fp")
+	Pad[0.01mil 0.0000 0.02mil 0.0000 39.37mil 20.00mil 1.5080mm "" "1" "onsolder"]
+
+	)
+
+Element["" "0805" "R3" "100" 875.14mil 31.9819mm -29.47mil -125.31mil 0 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
+
+Element["" "0805" "R4" "100" 794.77mil 31.9819mm -33.51mil -128.14mil 0 100 ""]
+(
+	Attribute("device" "RESISTOR")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pad[-3.93mil -35.43mil 3.93mil -35.43mil 56.18mil 20.00mil 62.18mil "1" "1" "square"]
+	Pad[-3.93mil 35.43mil 3.93mil 35.43mil 56.18mil 20.00mil 62.18mil "2" "2" "square"]
+	ElementLine [-27.55mil -3.93mil -27.55mil 3.93mil 8.00mil]
+	ElementLine [27.55mil -3.93mil 27.55mil 3.93mil 8.00mil]
+
+	)
 Layer(1 "component")
 (
 	Line[524.57mil 943.69mil 577.45mil 943.69mil 15.00mil 20.00mil ""]
-	Line[3.8161mm 843.02mil 174.57mil 818.69mil 15.00mil 20.00mil "clearline"]
 	Line[639.57mil 943.69mil 577.97mil 943.69mil 15.00mil 20.00mil ""]
 	Line[577.97mil 943.69mil 577.71mil 943.43mil 10.00mil 20.00mil "clearline"]
-	Line[3.8161mm 845.23mil 3.8161mm 845.22mil 10.00mil 20.00mil "clearline"]
 	Line[82.78mil 973.69mil 84.01mil 24.7630mm 10.00mil 20.00mil "clearline"]
 	Line[150.01mil 26.3629mm 3.8161mm 26.3688mm 10.00mil 20.00mil "clearline"]
 	Line[813.63mil 912.15mil 23.4160mm 25.9184mm 15.00mil 20.00mil "clearline"]
@@ -1335,33 +1425,18 @@ Layer(1 "component")
 	Line[150.01mil 25.5628mm 3.8161mm 25.5687mm 10.00mil 20.00mil "clearline"]
 	Line[918.39mil 837.35mil 988.39mil 837.35mil 15.00mil 20.00mil ""]
 	Line[14.7160mm 912.15mil 813.63mil 912.15mil 15.00mil 20.00mil "clearline"]
-	Line[3.8161mm 29.3687mm 3.8161mm 845.23mil 15.00mil 20.00mil "clearline"]
 	Line[84.01mil 24.7630mm 30.80mil 24.7630mm 15.00mil 20.00mil ""]
 	Line[577.45mil 943.69mil 577.71mil 943.43mil 10.00mil 20.00mil "clearline"]
 	Line[14.7160mm 880.66mil 811.66mil 880.66mil 15.00mil 20.00mil "clearline"]
-	Line[174.57mil 818.69mil 484.57mil 818.69mil 15.00mil 20.00mil "clearline"]
-	Line[484.57mil 818.69mil 589.57mil 713.69mil 15.00mil 20.00mil "clearline"]
 	Line[811.66mil 880.66mil 917.96mil 774.36mil 15.00mil 20.00mil "clearline"]
-	Line[484.57mil 968.69mil 489.57mil 973.69mil 15.00mil 20.00mil "clearline"]
-	Line[484.57mil 818.69mil 484.57mil 968.69mil 15.00mil 20.00mil "clearline"]
-	Line[576.48mil 973.69mil 577.71mil 24.7630mm 10.00mil 20.00mil "clearline"]
 	Line[424.57mil 1221.00mil 425.34mil 31.0330mm 10.00mil 20.00mil "clearline"]
 	Line[953.39mil 802.35mil 953.39mil 872.35mil 15.00mil 20.00mil ""]
-	Line[199.57mil 26.0017mm 199.57mil 28.2877mm 15.00mil 20.00mil "clearline"]
-	Line[199.57mil 28.2877mm 234.57mil 29.1767mm 15.00mil 20.00mil "clearline"]
 	Line[234.57mil 29.1767mm 369.57mil 29.1767mm 15.00mil 20.00mil "clearline"]
 	Line[369.57mil 29.1767mm 394.57mil 29.8117mm 15.00mil 20.00mil "clearline"]
 	Line[394.57mil 29.8117mm 394.57mil 31.0147mm 15.00mil 20.00mil "clearline"]
-	Line[264.57mil 26.0017mm 264.57mil 27.9067mm 15.00mil 20.00mil "clearline"]
-	Line[264.57mil 27.9067mm 284.57mil 28.4147mm 15.00mil 20.00mil "clearline"]
 	Line[284.57mil 28.4147mm 379.57mil 28.4147mm 15.00mil 20.00mil "clearline"]
 	Line[379.57mil 28.4147mm 424.57mil 29.5577mm 15.00mil 20.00mil "clearline"]
 	Line[424.57mil 29.5577mm 424.57mil 1221.00mil 15.00mil 20.00mil "clearline"]
-	Line[3.8161mm 845.23mil 3.8161mm 843.02mil 10.00mil 20.00mil "clearline"]
-	Line[459.57mil 30.9636mm 456.84mil 31.0330mm 10.00mil 20.00mil "clearline"]
-	Line[10.0160mm 731.05mil 10.0160mm 817.67mil 15.00mil 20.00mil "clearline"]
-	Line[577.71mil 24.7630mm 490.80mil 24.7630mm 15.00mil 20.00mil "clearline"]
-	Line[490.80mil 24.7630mm 489.57mil 973.69mil 10.00mil 20.00mil "clearline"]
 	Line[85.24mil 973.69mil 84.01mil 24.7630mm 10.00mil 20.00mil "clearline"]
 	Line[84.01mil 25.5628mm 150.01mil 25.5628mm 15.00mil 20.00mil "clearline"]
 	Line[917.96mil 774.36mil 917.96mil 650.34mil 15.00mil 20.00mil "clearline"]
@@ -1380,57 +1455,29 @@ Layer(1 "component")
 	Line[247.59mil 172.92mil 200.43mil 172.92mil 15.00mil 20.00mil ""]
 	Line[577.71mil 26.3632mm 637.06mil 26.3632mm 15.00mil 24.00mil "clearline"]
 	Line[637.06mil 26.3632mm 675.96mil 27.3512mm 15.00mil 24.00mil "clearline"]
-	Line[841.02mil 29.6487mm 895.98mil 31.0446mm 15.00mil 24.00mil "clearline"]
 	Line[578.16mil 27.1516mm 624.87mil 27.1516mm 15.00mil 20.00mil "clearline"]
 	Line[624.87mil 27.1516mm 664.17mil 28.1498mm 15.00mil 20.00mil "clearline"]
-	Line[805.65mil 32.0444mm 895.98mil 34.3388mm 15.00mil 20.00mil "clearline"]
-	Line[805.65mil 28.6489mm 805.65mil 32.0444mm 15.00mil 20.00mil "clearline"]
-	Line[786.00mil 28.1498mm 805.65mil 28.6489mm 15.00mil 20.00mil "clearline"]
-	Line[664.17mil 28.1498mm 786.00mil 28.1498mm 15.00mil 20.00mil "clearline"]
-	Line[841.02mil 28.4493mm 841.02mil 29.6487mm 15.00mil 24.00mil "clearline"]
-	Line[797.79mil 27.3512mm 841.02mil 28.4493mm 15.00mil 24.00mil "clearline"]
-	Line[675.96mil 27.3512mm 797.79mil 27.3512mm 15.00mil 24.00mil "clearline"]
-	Line[17.8930mm 813.69mil 17.8930mm 852.19mil 15.00mil 20.00mil ""]
 	Line[17.9040mm 938.69mil 17.9040mm 26.3827mm 15.00mil 20.00mil ""]
 	Line[16.6340mm 983.69mil 17.8930mm 983.69mil 15.00mil 20.00mil ""]
-	Line[775.31mil 809.76mil 775.31mil 22.2080mm 15.00mil 20.00mil "clearline"]
 	Line[775.74mil 984.12mil 775.74mil 914.55mil 15.00mil 20.00mil "clearline"]
-	Line[17.9040mm 763.69mil 17.9040mm 813.26mil 15.00mil 20.00mil ""]
-	Line[16.6340mm 813.69mil 17.8930mm 813.69mil 15.00mil 20.00mil ""]
 	Line[715.26mil 34.3372mm 715.32mil 34.3388mm 10.00mil 20.00mil "clearline"]
 	Line[577.71mil 28.7630mm 609.71mil 28.7630mm 15.00mil 20.00mil "clearline"]
 	Line[609.71mil 28.7630mm 636.66mil 29.4475mm 15.00mil 20.00mil "clearline"]
 	Line[636.66mil 29.4475mm 636.66mil 34.3372mm 15.00mil 20.00mil "clearline"]
 	Line[636.66mil 34.3372mm 636.60mil 34.3388mm 10.00mil 20.00mil "clearline"]
-	Line[707.46mil 31.0446mm 754.56mil 31.0446mm 15.00mil 20.00mil ""]
 	Line[707.40mil 34.3388mm 758.49mil 34.3388mm 15.00mil 20.00mil ""]
 	Line[977.72mil 349.91mil 977.72mil 341.06mil 15.00mil 20.00mil "clearline"]
 	Line[977.72mil 341.06mil 931.41mil 294.75mil 15.00mil 20.00mil "clearline"]
 	Line[931.41mil 294.75mil 813.57mil 294.75mil 15.00mil 20.00mil "clearline"]
 	Line[780.16mil 591.41mil 742.77mil 628.80mil 15.00mil 20.00mil "clearline"]
 	Line[742.77mil 628.80mil 674.46mil 628.80mil 15.00mil 20.00mil "clearline"]
-	Line[674.46mil 628.80mil 14.5550mm 730.23mil 15.00mil 20.00mil "clearline"]
 	Line[55.02mil 695.61mil 55.02mil 782.07mil 15.00mil 20.00mil ""]
-	Line[888.18mil 36.5349mm 888.18mil 41.7256mm 15.00mil 20.00mil ""]
-	Line[888.18mil 37.6329mm 829.23mil 37.6329mm 15.00mil 20.00mil ""]
-	Line[888.18mil 40.1284mm 837.09mil 40.1284mm 15.00mil 20.00mil ""]
-	Line[958.98mil 34.3388mm 958.98mil 37.7327mm 15.00mil 20.00mil "clearline"]
-	Line[958.98mil 31.0446mm 25.4546mm 31.0446mm 15.00mil 20.00mil "clearline"]
-	Line[25.4546mm 31.0446mm 25.8539mm 31.4439mm 15.00mil 20.00mil "clearline"]
-	Line[25.8539mm 31.4439mm 25.8539mm 39.6293mm 15.00mil 20.00mil "clearline"]
-	Line[958.98mil 40.1284mm 998.22mil 40.1284mm 15.00mil 20.00mil "clearline"]
-	Line[998.22mil 40.1284mm 25.8539mm 39.6293mm 15.00mil 20.00mil "clearline"]
 	Line[84.01mil 1069.40mil 149.78mil 1069.40mil 15.00mil 20.00mil "clearline"]
-	Line[84.01mil 26.3629mm 27.12mil 26.3629mm 15.00mil 20.00mil ""]
 	Line[522.21mil 566.15mil 460.80mil 566.15mil 15.00mil 20.00mil "clearline"]
 	Line[425.35mil 18.4930mm 425.35mil 599.79mil 15.00mil 20.00mil "clearline"]
 	Line[425.35mil 599.79mil 458.99mil 566.15mil 15.00mil 20.00mil "clearline"]
 	Line[522.21mil 416.15mil 522.21mil 459.70mil 15.00mil 20.00mil "clearline"]
-	Line[7.6040mm 18.4930mm 7.6040mm 674.00mil 15.00mil 20.00mil "clearline"]
-	Line[7.6040mm 674.00mil 383.99mil 589.38mil 15.00mil 20.00mil "clearline"]
 	Line[383.99mil 482.22mil 383.99mil 589.38mil 15.00mil 20.00mil "clearline"]
-	Line[317.21mil 566.15mil 317.21mil 549.39mil 15.00mil 20.00mil ""]
-	Line[317.21mil 567.25mil 317.21mil 593.65mil 15.00mil 20.00mil ""]
 	Line[241.11mil 634.03mil 267.90mil 660.82mil 15.00mil 20.00mil "clearline"]
 	Line[267.90mil 660.82mil 267.90mil 728.04mil 15.00mil 20.00mil "clearline"]
 	Line[267.90mil 728.04mil 6.8039mm 18.4930mm 15.00mil 20.00mil "clearline"]
@@ -1441,7 +1488,6 @@ Layer(1 "component")
 	Line[598.31mil 598.31mil 598.31mil 535.80mil 15.00mil 20.00mil "clearline"]
 	Line[598.31mil 535.80mil 580.45mil 517.94mil 15.00mil 20.00mil "clearline"]
 	Line[522.21mil 516.15mil 14.6980mm 516.15mil 15.00mil 20.00mil "clearline"]
-	Line[168.99mil 256.21mil 168.99mil 366.25mil 15.00mil 20.00mil ""]
 	Line[169.05mil 311.23mil 224.01mil 311.23mil 15.00mil 20.00mil ""]
 	Line[532.14mil 5.9248mm 532.14mil 307.28mil 15.00mil 20.00mil "clearline"]
 	Line[532.14mil 307.28mil 517.94mil 321.48mil 15.00mil 20.00mil "clearline"]
@@ -1459,7 +1505,6 @@ Layer(1 "component")
 	Line[616.17mil 321.48mil 785.90mil 321.48mil 15.00mil 20.00mil "clearline"]
 	Line[785.90mil 321.48mil 812.63mil 294.75mil 15.00mil 20.00mil "clearline"]
 	Line[705.47mil 59.45mil 705.47mil 294.69mil 10.00mil 20.00mil ""]
-	Line[534.48mil 38.8125mm 628.80mil 41.2082mm 15.00mil 20.00mil ""]
 	Line[776.91mil 40.1025mm 778.68mil 40.1475mm 35.00mil 20.00mil "clearline"]
 	Line[214.32mil 10.2070mm 267.90mil 348.27mil 15.00mil 20.00mil "clearline"]
 	Line[214.32mil 10.2070mm 214.32mil 16.5580mm 15.00mil 20.00mil "clearline"]
@@ -1476,9 +1521,8 @@ Layer(1 "component")
 	Line[778.68mil 40.1475mm 778.68mil 37.9242mm 15.00mil 20.00mil "clearline"]
 	Line[760.82mil 37.4256mm 778.68mil 37.8793mm 15.00mil 20.00mil "clearline"]
 	Line[362.35mil 31.0330mm 362.35mil 31.6591mm 10.00mil 20.00mil "clearline"]
-	Line[526.87mil 30.8478mm 580.45mil 30.8478mm 10.00mil 20.00mil ""]
-	Line[14.0630mm 30.1673mm 14.0630mm 31.5283mm 10.00mil 20.00mil ""]
-	Line[705.47mil 29.2951mm 705.47mil 35.3842mm 15.00mil 20.00mil ""]
+	Line[526.87mil 30.8478mm 580.45mil 30.8478mm 15.00mil 20.00mil ""]
+	Line[14.0630mm 30.1673mm 14.0630mm 31.5283mm 15.00mil 20.00mil ""]
 	Line[468.63mil 34.1597mm 532.24mil 34.1597mm 15.00mil 20.00mil "clearline"]
 	Line[532.24mil 34.1597mm 544.73mil 34.4769mm 15.00mil 20.00mil "clearline"]
 	Line[634.03mil 37.4256mm 634.32mil 37.4330mm 10.00mil 20.00mil "clearline"]
@@ -1518,10 +1562,6 @@ Layer(1 "component")
 	Line[625.10mil 491.15mil 17.0190mm 491.15mil 15.00mil 20.00mil "clearline"]
 	Line[741.19mil 446.50mil 741.19mil 535.80mil 15.00mil 20.00mil ""]
 	Line[740.90mil 491.15mil 785.84mil 491.15mil 15.00mil 20.00mil ""]
-	Line[124.40mil 768.92mil 4.4290mm 818.89mil 15.00mil 20.00mil "clearline"]
-	Line[124.40mil 768.92mil 124.40mil 285.14mil 15.00mil 20.00mil "clearline"]
-	Line[100.43mil 172.92mil 100.43mil 261.79mil 15.00mil 20.00mil "clearline"]
-	Line[100.43mil 261.79mil 124.40mil 7.2583mm 15.00mil 20.00mil "clearline"]
 	Line[9.2997mm 1518.10mil 375.06mil 38.7866mm 15.00mil 20.00mil "clearline"]
 	Line[375.06mil 38.7866mm 375.06mil 40.0555mm 15.00mil 20.00mil "clearline"]
 	Line[9.2997mm 34.7038mm 9.2997mm 1518.10mil 15.00mil 20.00mil "clearline"]
@@ -1540,23 +1580,92 @@ Layer(1 "component")
 	Line[300.06mil 34.1597mm 330.41mil 34.9306mm 15.00mil 20.00mil "clearline"]
 	Line[330.41mil 34.9306mm 330.41mil 35.8379mm 15.00mil 22.00mil "clearline"]
 	Line[330.41mil 35.8379mm 321.48mil 36.0647mm 15.00mil 22.00mil "clearline"]
-	Line[53.58mil 10.2070mm 53.58mil 321.19mil 15.00mil 20.00mil "clearline"]
-	Line[53.58mil 330.12mil 53.87mil 329.83mil 10.00mil 20.00mil "clearline"]
 	Line[55.02mil 734.91mil 86.65mil 734.91mil 15.00mil 20.00mil ""]
 	Line[56.23mil 734.91mil 20.51mil 734.91mil 15.00mil 20.00mil ""]
-	Line[53.58mil 392.92mil 53.58mil 464.36mil 15.00mil 20.00mil "clearline"]
 	Line[142.88mil 36.0647mm 142.88mil 37.8793mm 15.00mil 20.00mil ""]
-	Line[53.58mil 535.22mil 53.58mil 678.68mil 15.00mil 20.00mil ""]
-	Line[8.93mil 535.80mil 98.23mil 535.80mil 15.00mil 20.00mil ""]
 	Line[53.54mil 632.71mil 16.54mil 632.71mil 15.00mil 20.00mil ""]
 	Line[786.56mil 205.39mil 856.56mil 205.39mil 15.00mil 20.00mil ""]
 	Line[821.56mil 162.16mil 821.56mil 244.69mil 15.00mil 20.00mil ""]
-	Line[705.76mil 714.40mil 669.75mil 714.40mil 15.00mil 20.00mil "clearline"]
-	Line[669.75mil 714.40mil 634.03mil 19.0530mm 15.00mil 20.00mil "clearline"]
-	Line[776.91mil 759.05mil 776.91mil 669.75mil 15.00mil 20.00mil ""]
-	Line[776.91mil 714.40mil 812.63mil 714.40mil 15.00mil 20.00mil ""]
 	Line[124.73mil 34.7037mm 151.81mil 34.7037mm 15.00mil 20.00mil "clearline"]
 	Line[151.81mil 34.7037mm 205.39mil 36.0647mm 15.00mil 20.00mil "clearline"]
+	Line[17.9262mm 705.47mil 17.9262mm 743.97mil 15.00mil 20.00mil ""]
+	Line[706.19mil 655.47mil 706.19mil 17.9080mm 15.00mil 20.00mil ""]
+	Line[656.19mil 705.47mil 17.9262mm 705.47mil 15.00mil 20.00mil ""]
+	Line[776.91mil 880.66mil 776.91mil 705.76mil 15.00mil 20.00mil "clearline"]
+	Line[776.91mil 705.76mil 776.62mil 705.47mil 10.00mil 20.00mil "clearline"]
+	Line[205.39mil 26.0845mm 205.39mil 28.4129mm 15.00mil 20.00mil "clearline"]
+	Line[205.39mil 28.4129mm 5.9807mm 29.1767mm 15.00mil 20.00mil "clearline"]
+	Line[267.90mil 26.0845mm 267.90mil 27.9913mm 15.00mil 20.00mil "clearline"]
+	Line[267.90mil 27.9913mm 284.57mil 28.4147mm 15.00mil 20.00mil "clearline"]
+	Line[330.41mil 26.0845mm 330.41mil 1071.60mil 15.00mil 20.00mil "clearline"]
+	Line[330.41mil 1071.60mil 348.27mil 27.6723mm 15.00mil 20.00mil "clearline"]
+	Line[456.84mil 30.8120mm 456.84mil 29.5227mm 15.00mil 20.00mil "clearline"]
+	Line[488.34mil 31.0330mm 488.34mil 29.4155mm 15.00mil 20.00mil "clearline"]
+	Line[488.34mil 29.4155mm 392.92mil 26.9918mm 15.00mil 20.00mil "clearline"]
+	Line[392.92mil 26.9918mm 392.92mil 26.0845mm 15.00mil 20.00mil "clearline"]
+	Line[348.27mil 27.6723mm 383.99mil 27.6723mm 15.00mil 20.00mil "clearline"]
+	Line[383.99mil 27.6723mm 456.84mil 29.5227mm 15.00mil 20.00mil "clearline"]
+	Line[12.9929mm 27.9631mm 509.01mil 27.8991mm 10.00mil 20.00mil "clearline"]
+	Line[577.71mil 25.5631mm 13.4503mm 25.5631mm 15.00mil 20.00mil "clearline"]
+	Line[13.4503mm 25.5631mm 509.01mil 26.0845mm 15.00mil 20.00mil "clearline"]
+	Line[577.71mil 27.9631mm 12.9929mm 27.9631mm 15.00mil 20.00mil "clearline"]
+	Line[535.80mil 39.0134mm 625.10mil 41.2816mm 15.00mil 20.00mil ""]
+	Line[84.01mil 26.3629mm 3.8044mm 26.3629mm 15.00mil 20.00mil "clearline"]
+	Line[473.29mil 875.14mil 12.7020mm 848.35mil 15.00mil 20.00mil "clearline"]
+	Line[12.7020mm 848.35mil 14.6588mm 848.35mil 15.00mil 20.00mil "clearline"]
+	Line[3.8161mm 29.3687mm 3.8161mm 794.76mil 15.00mil 20.00mil "clearline"]
+	Line[3.8161mm 794.76mil 124.40mil 768.92mil 15.00mil 20.00mil "clearline"]
+	Line[173.38mil 18.4930mm 173.38mil 762.76mil 15.00mil 20.00mil "clearline"]
+	Line[173.38mil 762.76mil 205.39mil 794.77mil 15.00mil 20.00mil "clearline"]
+	Line[10.0160mm 19.9962mm 13.1066mm 19.9962mm 15.00mil 20.00mil "clearline"]
+	Line[10.0040mm 18.4930mm 10.0040mm 786.78mil 15.00mil 20.00mil "clearline"]
+	Line[3.8161mm 846.78mil 331.98mil 846.78mil 15.00mil 20.00mil "clearline"]
+	Line[331.98mil 846.78mil 9.9443mm 19.9962mm 15.00mil 20.00mil "clearline"]
+	Line[577.71mil 24.7630mm 9.5659mm 24.7630mm 15.00mil 20.00mil "clearline"]
+	Line[9.5659mm 24.7630mm 330.41mil 928.72mil 15.00mil 20.00mil "clearline"]
+	Line[330.41mil 928.72mil 330.41mil 848.35mil 15.00mil 20.00mil "clearline"]
+	Line[13.1066mm 19.9962mm 674.46mil 628.80mil 15.00mil 20.00mil "clearline"]
+	Line[473.29mil 875.14mil 473.29mil 919.79mil 15.00mil 20.00mil "clearline"]
+	Line[7.6040mm 18.4930mm 7.6040mm 638.28mil 15.00mil 20.00mil "clearline"]
+	Line[7.6040mm 638.28mil 321.48mil 616.17mil 15.00mil 20.00mil "clearline"]
+	Line[321.48mil 616.17mil 357.20mil 616.17mil 15.00mil 20.00mil "clearline"]
+	Line[357.20mil 616.17mil 383.99mil 589.38mil 15.00mil 20.00mil "clearline"]
+	Line[317.21mil 566.15mil 317.21mil 549.39mil 15.00mil 20.00mil ""]
+	Line[330.86mil 18.4930mm 330.86mil 660.37mil 15.00mil 20.00mil "clearline"]
+	Line[330.86mil 660.37mil 339.34mil 16.5580mm 15.00mil 20.00mil "clearline"]
+	Line[362.36mil 18.4930mm 362.36mil 682.45mil 15.00mil 20.00mil "clearline"]
+	Line[362.36mil 682.45mil 392.92mil 16.5580mm 15.00mil 20.00mil "clearline"]
+	Line[946.58mil 503.04mil 976.33mil 503.04mil 15.00mil 20.00mil "clearline"]
+	Line[976.33mil 503.04mil 25.8577mm 544.73mil 15.00mil 20.00mil "clearline"]
+	Line[794.77mil 34.7038mm 794.77mil 36.9720mm 15.00mil 20.00mil ""]
+	Line[19.0530mm 35.8379mm 839.42mil 35.8379mm 15.00mil 20.00mil ""]
+	Line[100.43mil 244.36mil 100.43mil 314.75mil 15.00mil 20.00mil "clearline"]
+	Line[100.43mil 314.75mil 4.0828mm 375.06mil 15.00mil 20.00mil "clearline"]
+	Line[125.02mil 634.03mil 125.02mil 598.31mil 10.00mil 20.00mil "clearline"]
+	Line[125.02mil 544.73mil 125.02mil 769.54mil 15.00mil 20.00mil "clearline"]
+	Line[4.0828mm 375.06mil 4.0828mm 509.01mil 15.00mil 20.00mil "clearline"]
+	Line[4.0828mm 509.01mil 125.02mil 544.73mil 15.00mil 20.00mil "clearline"]
+	Line[705.47mil 29.7137mm 705.47mil 32.4355mm 15.00mil 20.00mil ""]
+	Line[794.77mil 31.0820mm 794.77mil 28.8064mm 15.00mil 20.00mil "clearline"]
+	Line[794.77mil 28.8064mm 767.98mil 28.1259mm 15.00mil 20.00mil "clearline"]
+	Line[767.98mil 28.1259mm 16.8460mm 28.1259mm 15.00mil 20.00mil "clearline"]
+	Line[16.8460mm 28.1259mm 16.8154mm 28.0953mm 10.00mil 20.00mil "clearline"]
+	Line[675.96mil 27.3512mm 19.8661mm 27.3512mm 15.00mil 20.00mil "clearline"]
+	Line[875.14mil 31.0746mm 875.14mil 29.7520mm 15.00mil 20.00mil "clearline"]
+	Line[875.14mil 29.7520mm 19.8278mm 27.3512mm 15.00mil 20.00mil "clearline"]
+	Line[964.44mil 37.4256mm 964.44mil 36.0647mm 15.00mil 20.00mil "clearline"]
+	Line[964.44mil 36.0647mm 919.79mil 34.9306mm 15.00mil 20.00mil "clearline"]
+	Line[919.79mil 34.9306mm 875.43mil 34.9306mm 15.00mil 20.00mil "clearline"]
+	Line[875.43mil 34.9306mm 794.77mil 32.8818mm 15.00mil 20.00mil "clearline"]
+	Line[875.14mil 32.8818mm 875.43mil 32.8892mm 10.00mil 20.00mil "clearline"]
+	Line[875.43mil 32.8892mm 875.43mil 33.8038mm 15.00mil 20.00mil "clearline"]
+	Line[875.43mil 33.8038mm 893.00mil 34.2501mm 15.00mil 20.00mil "clearline"]
+	Line[893.00mil 34.2501mm 937.65mil 34.2501mm 15.00mil 20.00mil "clearline"]
+	Line[937.65mil 34.2501mm 25.8577mm 1428.80mil 15.00mil 20.00mil "clearline"]
+	Line[893.00mil 36.0647mm 893.00mil 41.0548mm 15.00mil 20.00mil ""]
+	Line[24.4820mm 39.4670mm 991.23mil 39.4670mm 15.00mil 20.00mil "clearline"]
+	Line[991.23mil 39.4670mm 25.8577mm 38.7866mm 15.00mil 20.00mil "clearline"]
+	Line[25.8577mm 38.7866mm 25.8577mm 1428.80mil 15.00mil 20.00mil "clearline"]
 	Polygon("clearpoly,lock")
 	(
 		[962.85mil 279.03mil] [208.29mil 279.03mil] [208.29mil 841.02mil] [962.85mil 841.02mil] 
@@ -1566,105 +1675,148 @@ Layer(1 "component")
 		[0.0000 0.0000] [0.0000 34.8379mm] [8.1854mm 43.0233mm] [1061.10mil 43.0233mm] [1061.10mil 8.1854mm] 
 		[738.84mil 0.0000] 
 	)
+	Polygon("clearpoly")
+	(
+		[125.02mil 517.94mil] [383.99mil 517.94mil] [383.99mil 848.35mil] [125.02mil 848.35mil] 
+	)
 )
 Layer(2 "solder")
 (
-	Line[914.02mil 837.35mil 25.1160mm 837.35mil 15.00mil 20.00mil ""]
 	Line[953.39mil 888.53mil 953.39mil 790.11mil 15.00mil 20.00mil ""]
-	Line[20.7160mm 1321.60mil 20.7160mm 817.66mil 15.00mil 20.00mil "clearline"]
-	Line[349.57mil 36.4157mm 424.57mil 38.3207mm 15.00mil 20.00mil ""]
 	Line[339.57mil 38.4477mm 424.57mil 36.2887mm 15.00mil 20.00mil ""]
-	Line[20.7160mm 829.48mil 20.7160mm 746.80mil 15.00mil 20.00mil "clearline"]
-	Line[681.07mil 36.9854mm 20.7160mm 1321.60mil 15.00mil 20.00mil "clearline"]
-	Line[20.7160mm 748.55mil 20.7160mm 623.02mil 15.00mil 20.00mil "clearline"]
-	Line[20.7160mm 623.02mil 782.07mil 589.50mil 15.00mil 20.00mil "clearline"]
 	Line[15.72mil 734.91mil 98.25mil 734.91mil 15.00mil 20.00mil ""]
 	Line[55.02mil 778.14mil 55.02mil 691.68mil 15.00mil 20.00mil ""]
-	Line[14.0630mm 31.9819mm 14.0630mm 29.9405mm 10.00mil 20.00mil ""]
-	Line[633.37mil 27.4379mm 17.0192mm 27.4379mm 15.00mil 20.00mil "clearline"]
-	Line[696.54mil 848.35mil 696.54mil 26.7574mm 15.00mil 20.00mil "clearline"]
-	Line[696.54mil 26.7574mm 669.75mil 27.4379mm 15.00mil 20.00mil "clearline"]
-	Line[421.37mil 25.5075mm 10.0836mm 25.5075mm 15.00mil 20.00mil "clearline"]
-	Line[10.0836mm 25.5075mm 357.20mil 964.44mil 15.00mil 41.00mil "clearline"]
-	Line[357.20mil 964.44mil 357.20mil 821.56mil 15.00mil 40.00mil "clearline"]
-	Line[517.94mil 30.8478mm 589.38mil 30.8478mm 10.00mil 20.00mil ""]
-	Line[633.37mil 29.3937mm 17.1453mm 29.3937mm 15.00mil 20.00mil ""]
-	Line[633.37mil 30.0287mm 673.22mil 30.0287mm 15.00mil 20.00mil ""]
-	Line[491.15mil 32.1480mm 681.07mil 36.9720mm 15.00mil 20.00mil "clearline"]
-	Line[421.37mil 29.3937mm 9.6197mm 29.3937mm 15.00mil 20.00mil "clearline"]
-	Line[9.6197mm 29.3937mm 348.27mil 30.1673mm 15.00mil 20.00mil "clearline"]
-	Line[348.27mil 30.1673mm 348.27mil 34.4769mm 15.00mil 20.00mil "clearline"]
-	Line[348.27mil 34.4769mm 312.55mil 35.3842mm 15.00mil 20.00mil "clearline"]
-	Line[312.55mil 35.3842mm 4.5365mm 35.3842mm 15.00mil 20.00mil "clearline"]
+	Line[14.0630mm 31.9819mm 14.0630mm 29.9405mm 15.00mil 20.00mil ""]
+	Line[517.94mil 30.8478mm 589.38mil 30.8478mm 15.00mil 20.00mil ""]
 	Line[4.5365mm 35.3842mm 178.60mil 35.3842mm 10.00mil 20.00mil "clearline"]
-	Line[178.60mil 32.6624mm 7.7119mm 32.6624mm 15.00mil 20.00mil "clearline"]
-	Line[7.7119mm 32.6624mm 321.48mil 32.2087mm 15.00mil 20.00mil "clearline"]
-	Line[321.48mil 32.2087mm 321.48mil 29.9405mm 15.00mil 20.00mil "clearline"]
-	Line[321.48mil 29.9405mm 9.2997mm 28.8064mm 15.00mil 20.00mil "clearline"]
-	Line[421.37mil 28.7587mm 9.3474mm 28.7587mm 15.00mil 20.00mil "clearline"]
-	Line[9.3474mm 28.7587mm 321.48mil 29.9405mm 10.00mil 20.00mil "clearline"]
-	Line[421.37mil 30.0541mm 459.89mil 30.0541mm 15.00mil 20.00mil ""]
-	Line[199.57mil 26.0017mm 199.57mil 27.5245mm 15.00mil 20.00mil "clearline"]
-	Line[421.37mil 28.0983mm 5.6429mm 28.0983mm 15.00mil 20.00mil "clearline"]
-	Line[5.6429mm 28.0983mm 199.57mil 27.5245mm 15.00mil 20.00mil "clearline"]
-	Line[421.37mil 26.1425mm 8.9040mm 26.1425mm 15.00mil 20.00mil "clearline"]
-	Line[8.9040mm 26.1425mm 312.55mil 991.23mil 15.00mil 20.00mil "clearline"]
-	Line[312.55mil 991.23mil 312.55mil 446.50mil 15.00mil 20.00mil "clearline"]
-	Line[633.37mil 26.1425mm 16.7269mm 26.1425mm 15.00mil 20.00mil "clearline"]
-	Line[16.7269mm 26.1425mm 669.75mil 25.8577mm 15.00mil 20.00mil "clearline"]
-	Line[538.87mil 25.4821mm 634.03mil 25.4821mm 15.00mil 20.00mil "clearline"]
-	Line[14.0630mm 26.7775mm 633.37mil 26.7775mm 15.00mil 49.00mil "clearline"]
 	Line[107.16mil 36.9720mm 178.60mil 36.9720mm 15.00mil 20.00mil ""]
 	Line[142.88mil 37.8793mm 142.88mil 36.0647mm 15.00mil 20.00mil ""]
 	Line[4.5364mm 35.3842mm 2.4947mm 35.3842mm 15.00mil 20.00mil "clearline"]
 	Line[2.4947mm 35.3842mm 98.22mil 35.3842mm 10.00mil 20.00mil "clearline"]
-	Line[4.5364mm 32.6624mm 2.4951mm 32.6624mm 15.00mil 20.00mil "clearline"]
-	Line[2.4951mm 32.6624mm 98.23mil 32.6624mm 10.00mil 20.00mil "clearline"]
-	Line[264.57mil 26.0017mm 264.57mil 978.97mil 15.00mil 20.00mil "clearline"]
-	Line[264.57mil 978.97mil 232.18mil 946.58mil 15.00mil 20.00mil "clearline"]
-	Line[741.19mil 36.9720mm 812.63mil 36.9720mm 15.00mil 20.00mil ""]
-	Line[776.91mil 37.8793mm 776.91mil 36.0647mm 15.00mil 20.00mil ""]
-	Line[53.58mil 392.92mil 258.97mil 392.92mil 15.00mil 20.00mil "clearline"]
-	Line[258.97mil 392.92mil 312.55mil 446.50mil 15.00mil 20.00mil "clearline"]
-	Line[15.4325mm 22.5231mm 16.6257mm 22.5231mm 15.00mil 20.00mil "clearline"]
-	Line[16.6257mm 22.5231mm 669.75mil 22.9090mm 15.00mil 20.00mil "clearline"]
-	Line[669.75mil 22.9090mm 669.75mil 25.8577mm 15.00mil 20.00mil "clearline"]
-	Line[15.4325mm 20.5731mm 16.7171mm 20.5731mm 15.00mil 20.00mil "clearline"]
-	Line[16.7171mm 20.5731mm 696.54mil 848.35mil 15.00mil 20.00mil "clearline"]
-	Line[13.0575mm 767.98mil 13.0575mm 18.7280mm 15.00mil 20.00mil "clearline"]
-	Line[13.0575mm 18.7280mm 491.15mil 714.40mil 15.00mil 40.00mil "clearline"]
-	Line[491.15mil 714.40mil 383.99mil 714.40mil 15.00mil 40.00mil "clearline"]
-	Line[383.99mil 714.40mil 357.20mil 741.19mil 15.00mil 40.00mil "clearline"]
-	Line[357.20mil 741.19mil 357.20mil 830.49mil 15.00mil 40.00mil "clearline"]
-	Line[538.87mil 25.4821mm 13.0069mm 25.4821mm 15.00mil 20.00mil "clearline"]
-	Line[13.0069mm 25.4821mm 446.50mil 937.65mil 15.00mil 20.00mil "clearline"]
-	Line[446.50mil 937.65mil 446.50mil 22.5317mm 15.00mil 20.00mil "clearline"]
-	Line[14.0505mm 26.7775mm 13.3950mm 26.7775mm 15.00mil 49.00mil "clearline"]
-	Line[11.3325mm 20.5731mm 10.5015mm 20.5731mm 15.00mil 20.00mil "clearline"]
-	Line[13.3950mm 26.7775mm 10.2070mm 928.72mil 15.00mil 49.00mil "clearline"]
-	Line[10.2070mm 928.72mil 10.2070mm 821.56mil 15.00mil 20.00mil "clearline"]
-	Line[10.2070mm 821.56mil 10.5015mm 20.5731mm 15.00mil 20.00mil "clearline"]
-	Line[678.68mil 40.1475mm 678.68mil 37.0461mm 15.00mil 20.00mil "clearline"]
 	Line[776.91mil 205.39mil 866.21mil 205.39mil 15.00mil 20.00mil ""]
 	Line[821.56mil 250.04mil 821.56mil 4.0828mm 15.00mil 20.00mil ""]
-	Line[634.03mil 19.0530mm 18.3725mm 19.0530mm 15.00mil 20.00mil "clearline"]
-	Line[18.3725mm 19.0530mm 767.98mil 794.77mil 15.00mil 20.00mil "clearline"]
-	Line[767.98mil 794.77mil 767.98mil 27.6723mm 15.00mil 20.00mil "clearline"]
-	Line[767.98mil 27.6723mm 19.0530mm 28.1259mm 15.00mil 20.00mil "clearline"]
-	Line[19.0530mm 28.1259mm 634.03mil 28.1259mm 15.00mil 20.00mil "clearline"]
-	Line[633.37mil 28.7333mm 19.2068mm 28.7333mm 15.00mil 20.00mil ""]
-	Line[11.3325mm 21.2231mm 15.4325mm 21.2231mm 15.00mil 20.00mil "clearline"]
-	Line[11.3325mm 21.8731mm 15.4325mm 21.8731mm 15.00mil 20.00mil "clearline"]
-	Line[12.4075mm 19.4981mm 12.4075mm 23.5981mm 15.00mil 20.00mil "clearline"]
-	Line[13.0575mm 23.5981mm 13.0575mm 767.98mil 15.00mil 20.00mil "clearline"]
-	Line[13.0575mm 767.98mil 13.0575mm 767.98mil 10.00mil 20.00mil "clearline"]
-	Line[13.7075mm 23.5981mm 13.7075mm 19.4981mm 15.00mil 20.00mil "clearline"]
-	Line[14.3575mm 19.4981mm 14.3575mm 23.5981mm 15.00mil 20.00mil "clearline"]
-	Line[421.37mil 26.8029mm 11.3790mm 26.8029mm 15.00mil 20.00mil "clearline"]
-	Line[11.3790mm 26.8029mm 491.15mil 27.8991mm 15.00mil 20.00mil "clearline"]
-	Line[491.15mil 27.8991mm 491.15mil 32.1480mm 15.00mil 20.00mil "clearline"]
-	Text[111.42mil 124.95mil 0 133 "ColorHug v2.0" "clearline,onsolder"]
-	Text[84.22mil 224.52mil 0 133 "(C) Hughski Ltd." "clearline,onsolder"]
+	Line[535.80mil 41.2816mm 625.10mil 39.0134mm 15.00mil 20.00mil ""]
+	Line[476.87mil 726.79mil 476.87mil 780.49mil 15.00mil 20.00mil ""]
+	Line[676.87mil 726.79mil 676.87mil 844.89mil 15.00mil 20.00mil ""]
+	Line[526.87mil 844.89mil 526.87mil 785.84mil 15.00mil 20.00mil ""]
+	Line[476.87mil 844.89mil 476.87mil 789.42mil 15.00mil 20.00mil ""]
+	Line[205.39mil 26.0845mm 116.09mil 26.0845mm 15.00mil 20.00mil "clearline"]
+	Line[9.5725mm 726.79mil 300.16mil 726.79mil 15.00mil 20.00mil "clearline"]
+	Line[300.16mil 726.79mil 258.97mil 767.98mil 15.00mil 20.00mil "clearline"]
+	Line[258.97mil 767.98mil 258.97mil 821.56mil 15.00mil 20.00mil "clearline"]
+	Line[205.39mil 26.0845mm 205.39mil 875.14mil 15.00mil 20.00mil "clearline"]
+	Line[205.39mil 875.14mil 258.97mil 821.56mil 15.00mil 20.00mil "clearline"]
+	Line[562.59mil 196.75mil 562.30mil 196.46mil 10.00mil 20.00mil "clearline"]
+	Line[455.43mil 31.5283mm 455.43mil 937.65mil 15.00mil 20.00mil "clearline"]
+	Line[455.43mil 937.65mil 473.29mil 919.79mil 15.00mil 20.00mil "clearline"]
+	Line[392.92mil 30.6136mm 356.91mil 30.6136mm 15.00mil 20.00mil "clearline"]
+	Line[348.27mil 1071.60mil 392.92mil 26.0845mm 15.00mil 20.00mil "clearline"]
+	Line[267.90mil 1134.40mil 267.90mil 27.6723mm 15.00mil 20.00mil ""]
+	Line[10.2070mm 1134.40mil 10.2070mm 27.6723mm 15.00mil 20.00mil ""]
+	Line[267.90mil 32.4429mm 294.40mil 32.4429mm 15.00mil 20.00mil "clearline"]
+	Line[294.40mil 32.4429mm 321.48mil 1250.20mil 15.00mil 20.00mil "clearline"]
+	Line[321.48mil 1250.20mil 321.48mil 26.3113mm 15.00mil 20.00mil "clearline"]
+	Line[321.48mil 26.3113mm 8.5058mm 25.9711mm 15.00mil 20.00mil "clearline"]
+	Line[348.27mil 1250.20mil 348.27mil 1071.60mil 15.00mil 20.00mil "clearline"]
+	Line[356.91mil 30.6136mm 348.27mil 30.3941mm 10.00mil 20.00mil "clearline"]
+	Line[10.2070mm 32.4429mm 375.35mil 32.4429mm 15.00mil 20.00mil "clearline"]
+	Line[375.35mil 32.4429mm 348.27mil 1250.20mil 15.00mil 20.00mil "clearline"]
+	Line[267.90mil 30.6136mm 321.19mil 30.6136mm 15.00mil 20.00mil "clearline"]
+	Line[321.19mil 30.6136mm 321.48mil 30.6210mm 10.00mil 20.00mil "clearline"]
+	Line[267.90mil 34.2428mm 10.2070mm 34.2428mm 15.00mil 20.00mil "clearline"]
+	Line[427.59mil 21.5841mm 427.59mil 902.98mil 15.00mil 20.00mil "clearline"]
+	Line[427.59mil 902.98mil 375.06mil 24.2700mm 15.00mil 20.00mil "clearline"]
+	Line[267.90mil 26.0845mm 267.90mil 982.30mil 15.00mil 20.00mil "clearline"]
+	Line[267.90mil 982.30mil 294.69mil 24.2700mm 15.00mil 20.00mil "clearline"]
+	Line[294.69mil 24.2700mm 375.06mil 24.2700mm 15.00mil 20.00mil "clearline"]
+	Line[577.59mil 849.77mil 577.59mil 25.4767mm 15.00mil 20.00mil "clearline"]
+	Line[577.59mil 25.4767mm 14.0630mm 26.0845mm 15.00mil 20.00mil "clearline"]
+	Line[14.0630mm 26.0845mm 12.9289mm 26.0845mm 15.00mil 20.00mil "clearline"]
+	Line[12.9289mm 26.0845mm 509.01mil 26.0845mm 10.00mil 20.00mil "clearline"]
+	Line[627.59mil 849.77mil 627.59mil 26.9286mm 15.00mil 20.00mil "clearline"]
+	Line[627.59mil 26.9286mm 589.38mil 27.8991mm 15.00mil 20.00mil "clearline"]
+	Line[589.38mil 27.8991mm 509.01mil 27.8991mm 15.00mil 20.00mil "clearline"]
+	Line[509.01mil 27.8991mm 509.01mil 27.8991mm 10.00mil 20.00mil "clearline"]
+	Line[527.59mil 731.67mil 527.59mil 679.40mil 15.00mil 20.00mil "clearline"]
+	Line[527.59mil 679.40mil 12.7020mm 16.5580mm 15.00mil 20.00mil "clearline"]
+	Line[12.7020mm 16.5580mm 392.92mil 16.5580mm 15.00mil 20.00mil "clearline"]
+	Line[392.92mil 16.5580mm 392.92mil 16.5580mm 10.00mil 20.00mil "clearline"]
+	Line[627.59mil 731.67mil 627.59mil 636.52mil 15.00mil 20.00mil "clearline"]
+	Line[627.59mil 636.52mil 589.38mil 598.31mil 15.00mil 20.00mil "clearline"]
+	Line[392.92mil 598.31mil 339.34mil 16.5580mm 15.00mil 20.00mil "clearline"]
+	Line[98.23mil 30.6210mm 98.23mil 33.3428mm 15.00mil 20.00mil "clearline"]
+	Line[98.23mil 33.3428mm 3.3950mm 34.2428mm 15.00mil 20.00mil "clearline"]
+	Line[3.3950mm 34.2428mm 10.1997mm 34.2428mm 15.00mil 20.00mil "clearline"]
+	Line[151.81mil 32.6624mm 5.2169mm 32.6624mm 15.00mil 20.00mil "clearline"]
+	Line[5.2169mm 32.6624mm 205.39mil 32.6624mm 10.00mil 20.00mil "clearline"]
+	Line[427.59mil 731.67mil 427.59mil 784.79mil 15.00mil 20.00mil ""]
+	Line[377.59mil 849.77mil 331.83mil 849.77mil 15.00mil 20.00mil "clearline"]
+	Line[205.39mil 794.77mil 205.39mil 634.03mil 15.00mil 20.00mil "clearline"]
+	Line[205.39mil 634.03mil 294.69mil 544.73mil 15.00mil 20.00mil "clearline"]
+	Line[294.69mil 544.73mil 696.54mil 544.73mil 15.00mil 20.00mil "clearline"]
+	Line[696.54mil 544.73mil 785.84mil 634.03mil 15.00mil 20.00mil "clearline"]
+	Line[785.84mil 634.03mil 785.84mil 857.28mil 15.00mil 20.00mil "clearline"]
+	Line[492.02mil 276.83mil 492.02mil 331.28mil 15.00mil 20.00mil "clearline"]
+	Line[492.02mil 331.28mil 535.80mil 375.06mil 15.00mil 20.00mil "clearline"]
+	Line[678.68mil 40.1475mm 678.68mil 39.0134mm 15.00mil 20.00mil "clearline"]
+	Line[678.68mil 39.0134mm 732.26mil 37.6525mm 15.00mil 20.00mil "clearline"]
+	Line[714.40mil 928.72mil 785.84mil 857.28mil 15.00mil 20.00mil "clearline"]
+	Line[679.38mil 1338.30mil 706.67mil 1338.30mil 15.00mil 20.00mil "clearline"]
+	Line[606.54mil 33.3428mm 580.45mil 33.3428mm 15.00mil 20.00mil "clearline"]
+	Line[491.15mil 34.2428mm 545.02mil 34.2428mm 15.00mil 20.00mil "clearline"]
+	Line[545.02mil 34.2428mm 580.45mil 33.3428mm 15.00mil 20.00mil "clearline"]
+	Line[606.54mil 32.6928mm 635.23mil 32.6928mm 15.00mil 20.00mil "clearline"]
+	Line[635.23mil 32.6928mm 642.96mil 32.8892mm 15.00mil 20.00mil "clearline"]
+	Line[642.96mil 32.8892mm 642.96mil 34.7038mm 15.00mil 20.00mil "clearline"]
+	Line[642.96mil 34.7038mm 598.31mil 35.8379mm 15.00mil 20.00mil "clearline"]
+	Line[598.31mil 35.8379mm 517.94mil 35.8379mm 15.00mil 20.00mil "clearline"]
+	Line[679.38mil 33.3428mm 696.54mil 33.3428mm 15.00mil 20.00mil "clearline"]
+	Line[696.54mil 33.3428mm 714.40mil 32.8892mm 15.00mil 20.00mil "clearline"]
+	Line[455.43mil 31.5283mm 455.43mil 31.5356mm 10.00mil 20.00mil "clearline"]
+	Line[455.43mil 31.5356mm 491.15mil 32.4429mm 15.00mil 20.00mil "clearline"]
+	Line[571.52mil 34.8823mm 606.54mil 1338.30mil 15.00mil 20.00mil ""]
+	Line[562.30mil 4.0828mm 562.30mil 276.54mil 15.00mil 20.00mil "clearline"]
+	Line[491.44mil 37.6524mm 491.44mil 36.5110mm 15.00mil 20.00mil "clearline"]
+	Line[491.44mil 36.5110mm 517.94mil 35.8379mm 15.00mil 20.00mil "clearline"]
+	Line[15.4238mm 37.6524mm 562.30mil 37.6524mm 15.00mil 20.00mil "clearline"]
+	Line[491.44mil 4.0828mm 446.50mil 205.68mil 15.00mil 20.00mil "clearline"]
+	Line[446.50mil 205.68mil 446.50mil 330.41mil 15.00mil 20.00mil "clearline"]
+	Line[875.14mil 12.7020mm 776.91mil 10.2070mm 15.00mil 20.00mil "clearline"]
+	Line[517.94mil 10.2070mm 446.50mil 330.41mil 15.00mil 20.00mil "clearline"]
+	Line[776.91mil 10.2070mm 517.94mil 10.2070mm 15.00mil 20.00mil "clearline"]
+	Line[22.9090mm 482.22mil 794.77mil 375.06mil 15.00mil 20.00mil "clearline"]
+	Line[794.77mil 375.06mil 535.80mil 375.06mil 15.00mil 20.00mil "clearline"]
+	Line[812.63mil 295.69mil 812.63mil 357.20mil 15.00mil 20.00mil "clearline"]
+	Line[812.63mil 357.20mil 794.77mil 375.06mil 15.00mil 20.00mil "clearline"]
+	Line[679.38mil 32.6928mm 679.38mil 1250.90mil 15.00mil 20.00mil ""]
+	Line[16.5580mm 30.6136mm 687.32mil 30.6136mm 15.00mil 20.00mil "clearline"]
+	Line[687.32mil 30.6136mm 714.40mil 31.3014mm 15.00mil 20.00mil "clearline"]
+	Line[714.40mil 31.3014mm 714.40mil 32.8892mm 15.00mil 20.00mil "clearline"]
+	Line[741.19mil 32.4355mm 741.19mil 33.1160mm 15.00mil 20.00mil "clearline"]
+	Line[741.19mil 33.1160mm 706.67mil 1338.30mil 15.00mil 20.00mil "clearline"]
+	Line[741.19mil 33.1160mm 741.19mil 946.58mil 15.00mil 20.00mil "clearline"]
+	Line[741.19mil 946.58mil 875.14mil 812.63mil 15.00mil 20.00mil "clearline"]
+	Line[875.14mil 812.63mil 875.14mil 12.7020mm 15.00mil 20.00mil "clearline"]
+	Line[785.84mil 1134.40mil 785.84mil 946.58mil 15.00mil 20.00mil "clearline"]
+	Line[785.84mil 946.58mil 22.9090mm 830.49mil 15.00mil 20.00mil "clearline"]
+	Line[22.9090mm 830.49mil 22.9090mm 482.22mil 15.00mil 20.00mil "clearline"]
+	Line[785.84mil 30.6136mm 785.84mil 33.1159mm 15.00mil 20.00mil "clearline"]
+	Line[785.84mil 33.1159mm 15.4238mm 37.6524mm 15.00mil 20.00mil "clearline"]
+	Line[22.9090mm 33.7965mm 22.9090mm 1250.20mil 15.00mil 20.00mil ""]
+	Line[16.5580mm 1134.40mil 696.25mil 1134.40mil 15.00mil 20.00mil "clearline"]
+	Line[696.25mil 1134.40mil 714.40mil 28.3528mm 15.00mil 20.00mil "clearline"]
+	Line[714.40mil 28.3528mm 714.40mil 928.72mil 15.00mil 20.00mil "clearline"]
+	Line[19.0530mm 35.8379mm 839.42mil 35.8379mm 15.00mil 20.00mil ""]
+	Line[794.77mil 36.7452mm 794.77mil 34.9306mm 15.00mil 20.00mil ""]
+	Line[18.5995mm 37.6525mm 839.42mil 37.6525mm 15.00mil 20.00mil "clearline"]
+	Line[589.38mil 598.31mil 392.92mil 598.31mil 15.00mil 20.00mil "clearline"]
+	Line[25.8577mm 544.73mil 25.8577mm 866.21mil 10.00mil 20.00mil "clearline"]
+	Line[25.8577mm 866.21mil 848.35mil 26.3114mm 15.00mil 20.00mil "clearline"]
+	Line[848.35mil 26.3114mm 848.35mil 33.3428mm 15.00mil 20.00mil "clearline"]
+	Line[848.35mil 33.3428mm 23.5895mm 35.3842mm 15.00mil 20.00mil "clearline"]
+	Line[23.5895mm 35.3842mm 23.5895mm 35.3843mm 10.00mil 20.00mil "clearline"]
+	Line[23.5895mm 35.3843mm 21.3213mm 37.6525mm 15.00mil 20.00mil "clearline"]
+	Text[30.64mil 99.52mil 0 109 "(C) Hughski Ltd." "clearline,onsolder"]
 	Polygon("clearpoly,lock")
 	(
 		[8.1854mm 43.0233mm] [0.0000 34.8379mm] [0.0000 0.0000] [738.84mil 0.0000] [1061.10mil 8.1854mm] 
@@ -1697,9 +1849,9 @@ Layer(10 "silk")
 	Line[0.0000 0.0000 0.0000 34.8379mm 10.00mil 20.00mil "clearline"]
 	Line[0.0000 34.8379mm 8.1854mm 43.0233mm 10.00mil 20.00mil "clearline"]
 	Line[8.1854mm 43.0233mm 1061.10mil 43.0233mm 10.00mil 20.00mil "clearline"]
-	Line[1061.10mil 43.0233mm 1061.10mil 8.1854mm 10.00mil 20.00mil "clearline"]
 	Line[1061.10mil 8.1854mm 738.84mil 0.0000 10.00mil 20.00mil "clearline"]
 	Line[738.84mil 0.0000 0.0000 0.0000 10.00mil 20.00mil "clearline"]
+	Line[1061.10mil 1684.90mil 1061.10mil 313.33mil 10.00mil 20.00mil "clearline"]
 )
 NetList()
 (
@@ -1708,7 +1860,6 @@ NetList()
 		Connect("C1-1")
 		Connect("C2-1")
 		Connect("C3-1")
-		Connect("C4-1")
 		Connect("C5-1")
 		Connect("C6-1")
 		Connect("C7-2")
@@ -1716,12 +1867,14 @@ NetList()
 		Connect("C9-1")
 		Connect("CONN1-3")
 		Connect("CONN2-5")
+		Connect("GND-1")
 		Connect("LED0-2")
 		Connect("LED1-2")
-		Connect("R2-2")
-		Connect("TP1-1")
+		Connect("R14-1")
+		Connect("R16-1")
+		Connect("R17-2")
+		Connect("R18-2")
 		Connect("U2-6")
-		Connect("U2-8")
 		Connect("U2-10")
 		Connect("U2-11")
 		Connect("U2-29")
@@ -1731,15 +1884,21 @@ NetList()
 		Connect("U5-5")
 		Connect("U5-6")
 		Connect("U5-7")
+		Connect("U6-4")
+		Connect("U6-5")
 		Connect("U6-6")
 		Connect("U6-7")
-		Connect("U6-8")
-		Connect("U6-9")
+		Connect("U6-13")
+		Connect("U6-14")
+		Connect("U7-1")
+		Connect("U7-4")
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
 		Connect("C9-2")
 		Connect("CONN2-1")
+		Connect("R21-1")
+		Connect("R22-1")
 		Connect("U3-3")
 	)
 	Net("unnamed_net2" "(unknown)")
@@ -1802,98 +1961,144 @@ NetList()
 	)
 	Net("unnamed_net13" "(unknown)")
 	(
+		Connect("R20-1")
+		Connect("U2-32")
+	)
+	Net("unnamed_net14" "(unknown)")
+	(
 		Connect("U2-35")
 		Connect("U4-6")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("U2-36")
 		Connect("U4-5")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
+	(
+		Connect("R19-1")
+		Connect("U2-44")
+	)
+	Net("unnamed_net17" "(unknown)")
+	(
+		Connect("RM-1")
+		Connect("U2-38")
+		Connect("U6-8")
+	)
+	Net("unnamed_net18" "(unknown)")
+	(
+		Connect("CLK-1")
+		Connect("U2-39")
+		Connect("U6-12")
+	)
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("U2-40")
 		Connect("U4-2")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("U2-41")
 		Connect("U4-1")
 	)
-	Net("unnamed_net17" "(unknown)")
-	(
-		Connect("U2-19")
-		Connect("U6-12")
-	)
-	Net("unnamed_net18" "(unknown)")
-	(
-		Connect("TP3-1")
-		Connect("U2-20")
-	)
-	Net("unnamed_net19" "(unknown)")
-	(
-		Connect("R11-2")
-		Connect("TP4-1")
-		Connect("U2-14")
-		Connect("U5-2")
-		Connect("U6-11")
-	)
-	Net("unnamed_net20" "(unknown)")
-	(
-		Connect("R12-2")
-		Connect("TP5-1")
-		Connect("U2-15")
-		Connect("U5-1")
-		Connect("U6-10")
-	)
 	Net("unnamed_net21" "(unknown)")
 	(
-		Connect("U1-13")
-		Connect("U6-4")
+		Connect("RST-1")
+		Connect("U2-27")
+		Connect("U6-9")
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("U1-8")
-		Connect("U6-3")
+		Connect("U2-19")
+		Connect("U6-2")
+		Connect("VIDEO-1")
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
-		Connect("U1-16")
-		Connect("U6-2")
+		Connect("SHT-1")
+		Connect("U2-20")
+		Connect("U6-3")
 	)
 	Net("unnamed_net24" "(unknown)")
 	(
-		Connect("U1-5")
-		Connect("U6-1")
+		Connect("R13-1")
+		Connect("R14-2")
+		Connect("R17-3")
+		Connect("U2-21")
 	)
 	Net("unnamed_net25" "(unknown)")
 	(
-		Connect("U1-17")
-		Connect("U6-16")
+		Connect("R15-1")
+		Connect("R16-2")
+		Connect("R18-3")
+		Connect("U2-22")
 	)
 	Net("unnamed_net26" "(unknown)")
 	(
-		Connect("C4-2")
-		Connect("L1-2")
-		Connect("U6-15")
+		Connect("DATA-1")
+		Connect("U2-24")
+		Connect("U6-11")
 	)
 	Net("unnamed_net27" "(unknown)")
 	(
-		Connect("R2-1")
-		Connect("U6-5")
+		Connect("R11-2")
+		Connect("SCL-1")
+		Connect("U2-14")
+		Connect("U5-2")
+	)
+	Net("unnamed_net28" "(unknown)")
+	(
+		Connect("R12-2")
+		Connect("SDA-1")
+		Connect("U2-15")
+		Connect("U5-1")
+	)
+	Net("unnamed_net29" "(unknown)")
+	(
+		Connect("R19-2")
+		Connect("U7-5")
+	)
+	Net("unnamed_net30" "(unknown)")
+	(
+		Connect("LED2-1")
+		Connect("R22-2")
+	)
+	Net("unnamed_net31" "(unknown)")
+	(
+		Connect("LED2-2")
+		Connect("U7-6")
+	)
+	Net("unnamed_net32" "(unknown)")
+	(
+		Connect("R20-2")
+		Connect("U7-2")
+	)
+	Net("unnamed_net33" "(unknown)")
+	(
+		Connect("LED3-1")
+		Connect("R21-2")
+	)
+	Net("unnamed_net34" "(unknown)")
+	(
+		Connect("LED3-2")
+		Connect("U7-3")
 	)
 	Net("Vcc" "(unknown)")
 	(
+		Connect("3V3-1")
 		Connect("C3-2")
 		Connect("C5-2")
 		Connect("C7-1")
 		Connect("CONN1-2")
-		Connect("L1-1")
 		Connect("R1-1")
 		Connect("R11-1")
 		Connect("R12-1")
-		Connect("TP2-1")
+		Connect("R13-2")
+		Connect("R15-2")
+		Connect("R17-1")
+		Connect("R18-1")
 		Connect("U2-7")
+		Connect("U2-8")
 		Connect("U2-9")
 		Connect("U2-28")
 		Connect("U2-37")
@@ -1901,7 +2106,7 @@ NetList()
 		Connect("U4-7")
 		Connect("U4-8")
 		Connect("U5-8")
-		Connect("U6-14")
+		Connect("U6-1")
 	)
 	Net("Vddcore" "(unknown)")
 	(

@@ -1,10 +1,10 @@
 GENERATED_FILES =					\
-	L78L33AC.sym					\
-	PIC18F46J50.sym					\
 	23K640.sym					\
-	TCN75A.sym					\
-	MCDC04.sym					\
-	MTCSiCF.sym
+	L78L33AC.sym					\
+	MBT3904DW1T1.sym				\
+	PIC18F46J50.sym					\
+	SPARK-DET-VIS.sym				\
+	TCN75A.sym
 
 designsymbolsdir = $(datadir)/colorhug-hardware/symbols
 designsymbols_DATA =					\

@@ -1,0 +1,42 @@
+# Compile using "tragesym SPARK-DET-VIS.tsym SPARK-DET-VIS.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=SPARK
+device=SPARK-DET-VIS
+refdes=U?
+footprint=SFML-107-02
+description=Spark Spectral Sensor
+documentation=SPARK.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		in	none		Vcc	
+2		out	line	r		VIDEO
+3		in	line	l		SHUTTER
+4		pwr	none		GND	
+5		in	line	r		M1
+6		pwr	none		GND	
+7		in	line	r		M0
+8		in	line	l		RM
+9		in	line	l		RESET
+10		out	line	t		THERM
+11		in	line	l		DATA
+12		in	line	l		CLK
+13		pwr	none		GND	
+14		pwr	none		GND	
