@@ -583,7 +583,7 @@ device=LED
 T 55200 49100 5 10 0 0 90 0 1
 symversion=0.1
 T 56000 48300 5 10 0 0 90 0 1
-footprint=0805
+footprint=wired-led-wide
 T 56400 49100 5 10 1 1 180 0 1
 refdes=LED2
 }
@@ -605,7 +605,7 @@ device=LED
 T 56000 49100 5 10 0 0 90 0 1
 symversion=0.1
 T 56800 48300 5 10 0 0 90 0 1
-footprint=0805
+footprint=wired-led-wide
 T 57200 49100 5 10 1 1 180 0 1
 refdes=LED3
 }

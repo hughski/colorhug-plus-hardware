@@ -5,7 +5,10 @@ designpackages_DATA =					\
 	SC70-6.fp					\
 	SFML-107-02.fp					\
 	testpad_1mm.fp					\
+	wired-led-wide.fp				\
 	USB_mini_TYPE-B_SMT_truncated.fp
+
+CLEANFILES = *.fp-
 
 EXTRA_DIST = ${designpackages_DATA}
 
