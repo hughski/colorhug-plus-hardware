@@ -817,8 +817,8 @@ Via[25.8577mm 544.73mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[953.39mil 837.35mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[794.77mil 35.8379mm 46.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[71.44mil 446.50mil 121.00mil 20.00mil 106.00mil 100.00mil "" "hole"]
-Via[991.23mil 31.9819mm 121.00mil 20.00mil 106.00mil 100.00mil "" "hole"]
 Via[303.62mil 884.07mil 41.00mil 20.00mil 0.0000 20.00mil "" ""]
+Via[991.23mil 1250.20mil 121.00mil 20.00mil 106.00mil 100.00mil "" "hole,selected"]
 
 Element["" "HC49smt" "X1" "24MHz" 23.4160mm 833.41mil -170.00mil 195.00mil 0 100 ""]
 (
