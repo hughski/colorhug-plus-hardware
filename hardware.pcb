@@ -1329,8 +1329,8 @@ Element["onsolder" "SFML-107-02" "U6" "unknown" 527.59mil 790.72mil 146.46mil -1
 	Attribute("use-license" "unlimited")
 	Attribute("dist-license" "GPL")
 	Attribute("documentation" "SFML-107-02")
-	Pin[212.00mil 0.0000 35.43mil 0.0000 48.00mil 55.00mil "" "" "edge2"]
-	Pin[-212.00mil 0.0000 35.43mil 0.0000 48.00mil 55.00mil "" "" "edge2"]
+	Pin[212.00mil 0.0000 50.00mil 0.0000 48.00mil 50.00mil "" "" "edge2"]
+	Pin[-212.00mil 0.0000 50.00mil 0.0000 48.00mil 50.00mil "" "" "edge2"]
 	Pad[-150.00mil -83.85mil -150.00mil -34.25mil 29.13mil 20.00mil 40.00mil "VIDEO" "2" "onsolder,square"]
 	Pad[-150.00mil 34.25mil -150.00mil 83.85mil 29.13mil 20.00mil 40.00mil "1" "1" "onsolder,square,edge2"]
 	Pad[-100.00mil -83.85mil -100.00mil -34.25mil 29.13mil 20.00mil 40.00mil "4" "4" "onsolder,square"]
