@@ -3,6 +3,7 @@ GENERATED_FILES =					\
 	L78L33AC.sym					\
 	MBT3904DW1T1.sym				\
 	PIC18F46J50.sym					\
+	SN74LS367AD.sym					\
 	SPARK-DET-VIS.sym				\
 	TCN75A.sym
 

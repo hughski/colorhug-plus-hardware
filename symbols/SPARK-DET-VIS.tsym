@@ -26,17 +26,17 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		in	none		Vcc	
-2		out	line	r		VIDEO
-3		in	line	l		SHUTTER
+1		pwr	line	t		Vcc
+2		out	line	l		VIDEO
+3		in	line	r		SHUTTER
 4		pwr	none		GND	
-5		in	line	r		M1
+5		in	line	l		M1
 6		pwr	none		GND	
-7		in	line	r		M0
-8		in	line	l		RM
-9		in	line	l		RESET
-10		out	line	t		THERM
-11		in	line	l		DATA
-12		in	line	l		CLK
+7		in	line	l		M0
+8		in	line	r		RM
+9		in	line	r		RESET
+10		out	line	b		THERM
+11		in	line	r		DATA
+12		in	line	r		CLK
 13		pwr	none		GND	
 14		pwr	none		GND	
