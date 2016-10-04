@@ -1,0 +1,36 @@
+# Compile using "tragesym CA3140MZ.tsym CA3140MZ.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1200
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=CA3140MZ
+device=CA3140MZ
+refdes=U?
+footprint=SO8
+description=CA3140MZ Op-Amp
+documentation=CA3140MZ.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+#1		nc	none			
+2		in	line	r		⊖
+3		in	line	r		⊕
+4		pwr	line	b		-V
+#5		nc	none			
+6		out	line	l		Output
+7		pwr	line	t		+V
+#8		nc	none			

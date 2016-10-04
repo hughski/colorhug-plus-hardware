@@ -1,5 +1,6 @@
 GENERATED_FILES =					\
 	23K640.sym					\
+	CA3140MZ.sym					\
 	L78L33AC.sym					\
 	MBT3904DW1T1.sym				\
 	PIC18F46J50.sym					\

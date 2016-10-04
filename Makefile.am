@@ -14,7 +14,6 @@ CLEANFILES =						\
 
 designdir = $(datadir)/colorhug-hardware
 design_DATA =						\
-	custom-punch.svg				\
 	gafrc						\
 	hardware.pcb					\
 	hardware.sch					\
