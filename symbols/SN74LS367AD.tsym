@@ -1,0 +1,44 @@
+# Compile using "tragesym SN74LS367AD.tsym SN74LS367AD.sym"
+
+[options]
+wordswap=yes
+rotate_labels=no
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1200
+pinwidthvertical=400
+pinwidthhorizontal=400
+
+[geda_attr]
+version=20060113 1
+name=74LS367
+device=74LS367
+refdes=U?
+footprint=SO16
+description=Non-Inverting, Hex Bus Driver
+documentation=22126E.pdf
+author=Richard Hughes <richard@hughsie.com>
+dist-license=GPL
+use-license=unlimited
+numslots=0
+
+[pins]
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		in	line	b		1\_G\_
+2		in	line	r		1A1
+3		out	line	l		1Y1
+4		in	line	r		1A2
+5		out	line	l		1Y2
+6		in	line	r		1A3
+7		out	line	l		1Y3
+8		pwr	none		GND	
+9		out	line	l		1Y4
+10		in	line	r		1A4
+11		out	line	l		2Y1
+12		in	line	r		2A1
+13		out	line	l		2Y2
+14		in	line	r		2A2
+15		in	line	b		2\_G\_
+16		pwr	line	t		VCC
